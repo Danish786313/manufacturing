@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#237B38"/>
+      <stop offset="100%" stop-color="#155526"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#favGrad)"/>
+  <!-- Leaf outline & inner emblem -->
+  <circle cx="32" cy="32" r="24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.3"/>
+  <!-- SM Monogram text with leaf accents -->
+  <text x="32" y="38" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-1">SM</text>
+  <!-- Sprouting Leaf -->
+  <path d="M37 20 C42 16, 48 18, 48 24 C44 26, 38 24, 37 20 Z" fill="#78D38A"/>
+  <path d="M38 21 C41 23, 44 23, 47 24" stroke="#155526" stroke-width="0.8" fill="none"/>
+</svg>

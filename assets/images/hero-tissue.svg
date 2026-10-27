@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F2F8F1"/>
+    </linearGradient>
+    <linearGradient id="heroEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#237B38"/>
+      <stop offset="100%" stop-color="#155526"/>
+    </linearGradient>
+    <filter id="heroShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#155526" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Background decorative soft organic rings -->
+  <circle cx="300" cy="240" r="210" fill="#EAF5E8" opacity="0.6"/>
+  <circle cx="300" cy="240" r="160" fill="#DCEFD9" opacity="0.4"/>
+
+  <!-- Botanical Leaf accents -->
+  <path d="M480 90 C530 60, 560 110, 540 160 C490 150, 460 110, 480 90 Z" fill="#237B38" opacity="0.2"/>
+  <path d="M70 380 C110 350, 150 390, 130 430 C80 430, 60 400, 70 380 Z" fill="#237B38" opacity="0.2"/>
+
+  <!-- Main Hero Card -->
+  <g filter="url(#heroShadow)">
+    <rect x="70" y="70" width="460" height="340" rx="24" fill="url(#heroCardBg)" stroke="#E2EBE2" stroke-width="1.5"/>
+    
+    <!-- Top Green Accent Ribbon -->
+    <path d="M70 94 C70 80.7, 80.7 70, 94 70 L506 70 C519.3 70, 530 80.7, 530 94 L530 100 L70 100 Z" fill="url(#heroEmerald)"/>
+
+    <!-- Central Featured Product Representation -->
+    <!-- Tissue emerging dynamically -->
+    <path d="M250 200 C230 130, 260 90, 300 80 C340 70, 360 110, 350 150 C360 170, 350 200, 350 200 Z" fill="#F8FBF8"/>
+    <path d="M270 190 C275 120, 320 95, 335 105 C350 115, 340 160, 330 190 Z" fill="#FFFFFF"/>
+    
+    <!-- Premium Tissue Dispenser Box -->
+    <rect x="150" y="200" width="300" height="150" rx="16" fill="url(#heroEmerald)"/>
+    <ellipse cx="300" cy="210" rx="60" ry="12" fill="#0E3D1A"/>
+    
+    <!-- Center Brand Emblem inside Box -->
+    <rect x="180" y="235" width="240" height="85" rx="10" fill="#FFFFFF"/>
+    <ellipse cx="230" cy="277" rx="24" ry="24" fill="#EAF5E8"/>
+    <text x="230" y="284" font-family="'Times New Roman', serif" font-size="19" font-weight="900" font-style="italic" fill="#155526" text-anchor="middle">SM</text>
+    
+    <text x="270" y="272" font-family="'Georgia', serif" font-size="20" font-weight="700" fill="#155526">Shobha</text>
+    <text x="270" y="286" font-family="'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#237B38" letter-spacing="1">TISSUE MANUFACTURING</text>
+    <text x="270" y="299" font-family="'Segoe UI', Roboto, sans-serif" font-size="8" font-style="italic" fill="#586A5B">Softness for a Cleaner Tomorrow</text>
+  </g>
+
+  <!-- Floating Quality Badges -->
+  <g filter="url(#heroShadow)">
+    <rect x="40" y="220" width="130" height="42" rx="21" fill="#FFFFFF" stroke="#237B38" stroke-width="1.5"/>
+    <circle cx="62" cy="241" r="12" fill="#EAF5E8"/>
+    <path d="M57 241 L61 245 L68 238" stroke="#237B38" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <text x="82" y="238" font-family="'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#155526">100% HYGIENIC</text>
+    <text x="82" y="249" font-family="'Segoe UI', Roboto, sans-serif" font-size="8" fill="#607263">&amp; Skin Safe</text>
+  </g>
+
+  <g filter="url(#heroShadow)">
+    <rect x="420" y="280" width="145" height="42" rx="21" fill="#FFFFFF" stroke="#237B38" stroke-width="1.5"/>
+    <circle cx="442" cy="301" r="12" fill="#EAF5E8"/>
+    <path d="M442 293 C447 293, 451 297, 451 302 C447 304, 442 303, 442 293 Z" fill="#237B38"/>
+    <text x="462" y="298" font-family="'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#155526">ECO-FRIENDLY</text>
+    <text x="462" y="309" font-family="'Segoe UI', Roboto, sans-serif" font-size="8" fill="#607263">Responsible Process</text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="customBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF5E8"/>
+      <stop offset="100%" stop-color="#D7ECD4"/>
+    </linearGradient>
+    <filter id="custShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#155526" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="500" height="360" rx="16" fill="url(#customBg)"/>
+  
+  <ellipse cx="250" cy="305" rx="165" ry="20" fill="#000000" opacity="0.14"/>
+
+  <!-- Custom Pack / Dispenser Box -->
+  <g filter="url(#custShadow)" transform="translate(110, 70)">
+    <!-- Box Body -->
+    <rect x="30" y="70" width="220" height="150" rx="14" fill="#FFFFFF" stroke="#E2EBE2" stroke-width="2"/>
+    <rect x="30" y="70" width="220" height="40" rx="14" fill="#155526"/>
+    
+    <!-- Top Tissue fold -->
+    <path d="M90 70 C80 30, 110 10, 140 10 C170 10, 185 35, 190 70 Z" fill="#F8FBF9"/>
+    <path d="M110 70 C120 20, 150 20, 170 70 Z" fill="#FFFFFF"/>
+
+    <!-- Custom Client Logo Mockup printed on tissue box -->
+    <rect x="55" y="130" width="170" height="75" rx="8" fill="#F4FAF3" stroke="#237B38" stroke-width="1.5" stroke-dasharray="4 3"/>
+    
+    <!-- Stamp / Custom Print icon -->
+    <circle cx="95" cy="167" r="18" fill="#237B38" opacity="0.15"/>
+    <circle cx="95" cy="167" r="14" fill="none" stroke="#237B38" stroke-width="1.5"/>
+    <path d="M89 167 L93 171 L101 163" stroke="#237B38" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Custom text lines -->
+    <text x="125" y="162" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#155526">YOUR BRAND</text>
+    <text x="125" y="174" font-family="'Segoe UI', Roboto, sans-serif" font-size="8" font-weight="600" fill="#237B38">NAME &amp; LOGO</text>
+    <text x="125" y="186" font-family="'Segoe UI', Roboto, sans-serif" font-size="7" fill="#6B7E6F">Printed on Tissue</text>
+  </g>
+
+  <!-- Card Highlight Badge -->
+  <rect x="30" y="25" width="200" height="28" rx="14" fill="#155526"/>
+  <text x="130" y="43" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Custom Branding Available</text>
+</svg>

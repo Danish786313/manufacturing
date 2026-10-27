@@ -1,0 +1,6 @@
+# Robots.txt for Shobha Tissue Manufacturing
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.shobhatissue.com/sitemap.xml

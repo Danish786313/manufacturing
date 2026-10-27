@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bulkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF5E8"/>
+      <stop offset="100%" stop-color="#D7ECD4"/>
+    </linearGradient>
+    <linearGradient id="cartonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E6C89C"/>
+      <stop offset="100%" stop-color="#CFA775"/>
+    </linearGradient>
+    <filter id="bulkShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#155526" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="500" height="360" rx="16" fill="url(#bulkBg)"/>
+  <ellipse cx="250" cy="305" rx="170" ry="20" fill="#000000" opacity="0.14"/>
+
+  <!-- Cartons & Packs Group -->
+  <g filter="url(#bulkShadow)" transform="translate(100, 60)">
+    <!-- Back Carton -->
+    <rect x="140" y="40" width="150" height="130" rx="6" fill="#D3AE7E"/>
+    <path d="M140 70 L290 70" stroke="#B99260" stroke-width="2"/>
+    <rect x="195" y="40" width="40" height="30" fill="#E6C89C" opacity="0.6"/>
+
+    <!-- Front Left Carton -->
+    <rect x="20" y="100" width="160" height="140" rx="8" fill="url(#cartonGrad)"/>
+    <!-- Tape -->
+    <rect x="90" y="100" width="20" height="140" fill="#B98A4B" opacity="0.7"/>
+    <!-- Label -->
+    <rect x="40" y="140" width="120" height="55" rx="4" fill="#FFFFFF"/>
+    <text x="100" y="160" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#155526" text-anchor="middle">SHOBHA TISSUE</text>
+    <text x="100" y="174" font-family="'Segoe UI', Roboto, sans-serif" font-size="8" font-weight="600" fill="#237B38" text-anchor="middle">BULK COMMERCIAL SUPPLY</text>
+    <text x="100" y="186" font-family="'Segoe UI', Roboto, sans-serif" font-size="7" fill="#6B7E6F" text-anchor="middle">Wholesale &amp; Direct Supply</text>
+
+    <!-- Front Right Pack Bundle -->
+    <rect x="160" y="130" width="130" height="110" rx="8" fill="#155526"/>
+    <rect x="170" y="140" width="110" height="90" rx="6" fill="#FFFFFF"/>
+    <!-- Tissue stack inside wrap -->
+    <path d="M185 160 L265 160 M185 175 L265 175 M185 190 L265 190 M185 205 L265 205" stroke="#D7E7D7" stroke-width="4" stroke-linecap="round"/>
+    <rect x="180" y="170" width="90" height="25" rx="3" fill="#237B38"/>
+    <text x="225" y="186" font-family="'Segoe UI', Roboto, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF" text-anchor="middle">BULK PACKS</text>
+  </g>
+
+  <!-- Feature Badge -->
+  <rect x="30" y="25" width="180" height="28" rx="14" fill="#237B38"/>
+  <text x="120" y="43" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Wholesale &amp; Bulk Orders</text>
+</svg>

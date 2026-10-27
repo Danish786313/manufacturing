@@ -1,0 +1,17 @@
+{
+  "name": "Shobha Tissue Manufacturing",
+  "short_name": "Shobha Tissue",
+  "description": "Quality soft and hard tissue products direct from the manufacturer in Bhopal, Madhya Pradesh.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F9F5",
+  "theme_color": "#155526",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "64x64 128x128 256x256",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
